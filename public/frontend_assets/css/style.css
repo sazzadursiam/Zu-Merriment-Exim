@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+    color: #202020;
+}
 .navbar ul li {
     font-weight: bold;
     font-size: 18px;
@@ -18,16 +23,57 @@
     background: #f25c05;
     color: #fff;
 }
-.custom_section{
+.custom_section {
     padding-top: 120px;
 }
-a{
+a {
     text-decoration: none !important;
 }
-.read_more{
+.read_more {
     padding: 8px 20px;
     transition: all 0.3s;
 }
-.read_more:hover{
+.read_more:hover {
     background: #ec8448;
+}
+
+.img-gradient {
+    position: relative;
+    display: inline-block;
+}
+.img-gradient:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(
+        180deg,
+        rgba(242, 83, 5, 0) 55.73%,
+        #f25c05 100%
+    );
+}
+.img-gradient img {
+    display: block;
+    width: 90%;
+}
+
+.img-gradient .inner_btn {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: #f25c05;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+.img-gradient .inner_text {
+	position: absolute;
+	bottom: 15px;
+	color: #ffffff;
+	width: 85%;
+	left: 6%;
+	z-index: 1;
+    padding-right: 8px;
 }

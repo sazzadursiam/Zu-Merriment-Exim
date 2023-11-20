@@ -45,5 +45,103 @@
                 </div>
             </div>
         </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">WHY CHOOSE US</h3>
+                    <h2 class="brand_color text-center fw-bold">
+                        Discover the Advantage of Unparalleled Expertise, Sustainable Practices, and Tailored Solutions for
+                        a Seamless Trading Experience
+                    </h2>
+                </div>
+                <div class="col-md-12 mt-5">
+                    <div class="row">
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/1.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Reliability and Consistency
+                            </h5>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/2.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Quality Assurance
+                            </h5>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/3.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Customer-Centric Approach
+                            </h5>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/4.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Global Reach
+                            </h5>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/5.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Competitive Pricing
+                            </h5>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <img src="{{ asset('frontend_assets/img/home/why_chose_us/6.png') }}" alt="">
+                            <h5 class="fw-bold mt-4">
+                                Responsive Communication
+                            </h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>OUR SERVICES</h3>
+
+                </div>
+                <div class="col-md-10">
+                    <h2 class="brand_color fw-bold">
+                        Our Comprehensive Services Unleash Opportunities, Navigate Challenges, and Elevate Your Business in
+                        the Global Marketplace
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 py-4">
+                    <div class="img-gradient">
+                        <img src="{{ asset('frontend_assets/img/home/our_service/1.webp') }}" alt="">
+                        <div class="inner_btn">
+                            EXPORT
+                        </div>
+                        <div class="inner_text">
+                            <p>
+                                With a commitment to excellence, our trading company ensures smooth, reliable, and efficient
+                                global export operations, facilitating growth for businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 py-4 text-md-end">
+                    <div class="img-gradient">
+                        <img src="{{ asset('frontend_assets/img/home/our_service/2.webp') }}" alt="">
+                        <div class="inner_btn">
+                            IMPORT
+                        </div>
+                        <div class="inner_text">
+                            <p>
+                                Leveraging our global network, we streamline import processes, ensuring timely and dependable access to the finest goods for our clients
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
