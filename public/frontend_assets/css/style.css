@@ -1,0 +1,33 @@
+.navbar ul li {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.contact_menu {
+    background: #f25c05;
+    padding: 5px 20px !important;
+    color: #fff;
+}
+.navbar ul li a.active {
+    color: #f25c05 !important;
+}
+.brand_color {
+    color: #f25c05;
+}
+.bg_primary {
+    background: #f25c05;
+    color: #fff;
+}
+.custom_section{
+    padding-top: 120px;
+}
+a{
+    text-decoration: none !important;
+}
+.read_more{
+    padding: 8px 20px;
+    transition: all 0.3s;
+}
+.read_more:hover{
+    background: #ec8448;
+}
