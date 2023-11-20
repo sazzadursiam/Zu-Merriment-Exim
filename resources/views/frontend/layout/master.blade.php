@@ -16,7 +16,7 @@
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            
+
             <a class="navbar-brand me-5" href="{{ route('home') }}">
                 <div class="py-2">
                     <img src="{{ asset('frontend_assets/img/logo.png') }}" alt="" height="60px">
@@ -26,14 +26,14 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 d-flex justify-content-between align-items-center">
                     <li class="nav-item">
                         <a class="nav-link @yield('home_active')" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
+                        <a class="nav-link @yield('about_us_active')" href="{{ route('about_us') }}">ABOUT US</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">SERVICES</a>
@@ -54,7 +54,7 @@
                 </ul>
 
             </div>
-            
+
 
 
         </div>

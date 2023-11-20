@@ -7,7 +7,12 @@ use Illuminate\Http\Request;
 
 class MasterController extends Controller
 {
-    public function home(){
+    public function home()
+    {
         return view('frontend.pages.index');
+    }
+    public function about_us()
+    {
+        return view('frontend.pages.about_us');
     }
 }
