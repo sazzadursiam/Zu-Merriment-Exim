@@ -23,9 +23,30 @@ body {
     background: #f25c05;
     color: #fff;
 }
-.custom_section {
+/* .custom_section {
     padding-top: 120px;
+} */
+@media (max-width: 767px) {
+    .custom_section {
+        padding-top: 40px;
+    }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom_section {
+        padding-top: 60px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    .custom_section {
+        padding-top: 80px;
+    }
+}
+@media (min-width: 1200px) {
+    .custom_section {
+        padding-top: 100px;
+    }
+}
+
 a {
     text-decoration: none !important;
 }
@@ -69,11 +90,11 @@ a {
     padding: 10px 40px;
 }
 .img-gradient .inner_text {
-	position: absolute;
-	bottom: 15px;
-	color: #ffffff;
-	width: 85%;
-	left: 6%;
-	z-index: 1;
+    position: absolute;
+    bottom: 15px;
+    color: #ffffff;
+    width: 85%;
+    left: 6%;
+    z-index: 1;
     padding-right: 8px;
 }
