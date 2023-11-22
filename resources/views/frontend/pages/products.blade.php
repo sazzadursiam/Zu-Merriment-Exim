@@ -1,21 +1,21 @@
 @extends('frontend.layout.master')
-@section('about_us_active')
+@section('products_active')
     active
 @endsection
 @section('custom_css')
     <style>
-        
+
     </style>
 @endsection
 @section('content')
     <div class="hero_img">
-        <img src="{{ asset('frontend_assets/img/about_us/hero.webp') }}" class="d-block w-100" alt="...">
+        <img src="{{ asset('frontend_assets/img/services/1.webp') }}" class="d-block w-100" alt="...">
         <div class="hero_child_img text-end">
-            <img src="{{ asset('frontend_assets/img/about_us/1.webp') }}" class="" alt="">
+            <img src="{{ asset('frontend_assets/img/services/2.webp') }}" class="" alt="">
         </div>
 
         <div class="d-inline-block page_title">
-            <h5 class="text-white"><b>ABOUT US</b></h5>
+            <h5 class="text-white"><b>SERVICES</b></h5>
             <hr style="height: 3px; background-color:#f25c05; opacity:unset; border-top: 0; margin: 0; width: 135%;">
         </div>
 
@@ -26,16 +26,23 @@
         <section class="custom_section">
             <div class="row">
                 <div class="col-md-6">
-                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>WHO WE ARE</b></h6>
-                    <p class="mt-3" style="text-align: justify">Welcome to Merriment Exim Ltd, where excellence meets
-                        expertise in the dynamic world of trading. Established with a passion for delivering unparalleled
-                        trading solutions, we take pride in our commitment to innovation, integrity, and client success.
+
+                    <p class="mt-3" style="text-align: justify">Welcome to the heart of global trade at Merriment Exim. As
+                        a leading trading company, we specialize in comprehensive export and import services designed to
+                        connect businesses to opportunities worldwide. Whether you're looking to expand your market reach,
+                        source quality products, or streamline your supply chain, we have the expertise and resources to
+                        make international trade seamless for you.
                     </p>
                 </div>
-                <p style="text-align: justify">Merriment Exim Ltd. is a team of seasoned professionals, each bringing a
-                    wealth of experience and a unique set of skills to the table. From market analysts and financial experts
-                    to technology specialists, we have assembled a diverse team dedicated to staying ahead of market trends
-                    and delivering top-notch services. What Sets Us Apart</p>
+                <div class="col-12 mt-4">
+                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Export Services</b>
+                    </h6>
+                    <p class="mt-3" style="text-align: justify">At Merriment Exim, we understand that success in
+                        international markets requires precision and reliability. Our export services are tailored to meet
+                        the diverse needs of businesses seeking to venture into new territories. From navigating complex
+                        regulations to optimizing shipping logistics, we handle the intricacies, allowing you to focus on
+                        growing your business globally.</p>
+                </div>
             </div>
         </section>
         <section class="custom_section">
