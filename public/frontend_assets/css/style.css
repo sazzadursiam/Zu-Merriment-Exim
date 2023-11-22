@@ -28,7 +28,7 @@ body {
 }
 @media (max-width: 767px) {
     .custom_section {
-        padding-top: 40px;
+        padding-top: 60px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -98,7 +98,26 @@ a {
     z-index: 1;
     padding-right: 8px;
 }
-
+.product_wrapper {
+    position: relative;
+}
+.product_wrapper img {
+    width: 100%;
+}
+.product_wrapper .product_inner_btn {
+    position: absolute;
+    cursor: pointer;
+    background: #f25c05;
+    color: #ffffff;
+    padding: 5px 30px;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero_img {
     position: relative;
 }
@@ -106,6 +125,11 @@ a {
     position: absolute;
     left: 8%;
     top: 10%;
+}
+.testimonials-item{
+    border: 1px solid #f25c05;
+    padding: 7px;
+    min-height: 152px;
 }
 
 @media screen and (max-width: 575px) {
