@@ -1,10 +1,10 @@
 @extends('frontend.layout.master')
-@section('about_us_active')
+@section('contact_us_active')
     active
 @endsection
 @section('custom_css')
     <style>
-        
+
     </style>
 @endsection
 @section('content')

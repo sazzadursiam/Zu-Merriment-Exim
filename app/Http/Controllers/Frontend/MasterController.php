@@ -15,4 +15,20 @@ class MasterController extends Controller
     {
         return view('frontend.pages.about_us');
     }
+    public function services()
+    {
+        return view('frontend.pages.services');
+    }
+    public function products()
+    {
+        return view('frontend.pages.products');
+    }
+    public function news_updates()
+    {
+        return view('frontend.pages.news_updates');
+    }
+    public function contact_us()
+    {
+        return view('frontend.pages.contact_us');
+    }
 }
