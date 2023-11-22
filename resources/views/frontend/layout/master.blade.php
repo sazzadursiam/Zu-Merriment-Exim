@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
     <link rel="stylesheet" href="{{ asset('frontend_assets/css/style.css') }}">
     @yield('custom_css')
 </head>
@@ -23,7 +23,7 @@
         <div class="container">
 
             <a class="navbar-brand me-5" href="{{ route('home') }}">
-                <div class="py-2">
+                <div class="py-0">
                     <img src="{{ asset('frontend_assets/img/logo.png') }}" alt="" height="60px">
                 </div>
             </a>
@@ -41,20 +41,18 @@
                         <a class="nav-link @yield('about_us_active')" href="{{ route('about_us') }}">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link @yield('services_active')" href="{{ route('services') }}">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link @yield('products_active')" href="{{ route('products') }}">PRODUCTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUCTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NEWS & UPDATES</a>
+                        <a class="nav-link @yield('news_updates_active')" href="{{ route('news_updates') }}">NEWS & UPDATES</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link contact_menu" href="#">Contact us</a>
+                        <a class="nav-link contact_menu text-white @yield('contact_us_active')"
+                            href="{{ route('contact_us') }}">Contact us</a>
                     </li>
                 </ul>
 
