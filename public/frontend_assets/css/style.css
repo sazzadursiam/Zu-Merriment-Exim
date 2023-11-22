@@ -28,7 +28,7 @@ body {
 }
 @media (max-width: 767px) {
     .custom_section {
-        padding-top: 40px;
+        padding-top: 60px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -125,6 +125,11 @@ a {
     position: absolute;
     left: 8%;
     top: 10%;
+}
+.testimonials-item{
+    border: 1px solid #f25c05;
+    padding: 7px;
+    min-height: 152px;
 }
 
 @media screen and (max-width: 575px) {

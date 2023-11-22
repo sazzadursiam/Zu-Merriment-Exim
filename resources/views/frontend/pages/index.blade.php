@@ -223,8 +223,72 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
+        </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="">TESTIMONIALS</h3>
+
+                </div>
+                <div class="col-md-12">
+                    <h2 class="brand_color fw-bold">
+                        Our Clients Reviews
+                    </h2>
+                </div>
+            </div>
+            <div class="row testimonials mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            “ I'm consistently impressed with this trading company's efficiency and reliability in executing
+                            trades. Their transparent transactions and insightful market analyses have made my trading
+                            experience seamless.“
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">Wilton Grooves</h5>
+                        <p class="brand_color">Trader</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            “ This trading company stands out for its precision in executing trades and transparent
+                            approach,
+                            making my investment journey smooth and stress-free. “
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">Arif Shahriar</h5>
+                        <p class="brand_color">Businessman</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            "Consistent precision in trades, transparent dealings, and insightful market analyses define
+                            this
+                            trading company. The user-friendly platform and responsive support enhance the overall
+                            experience."
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">George D. Coffey</h5>
+                        <p class="brand_color">Businessman</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
         </section>
     </div>
 @endsection
