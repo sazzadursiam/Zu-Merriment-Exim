@@ -136,12 +136,159 @@
                         </div>
                         <div class="inner_text">
                             <p>
-                                Leveraging our global network, we streamline import processes, ensuring timely and dependable access to the finest goods for our clients
+                                Leveraging our global network, we streamline import processes, ensuring timely and
+                                dependable access to the finest goods for our clients
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">OUR PRODUCTS</h3>
+
+                </div>
+                <div class="col-md-12">
+                    <h2 class="brand_color fw-bold text-center">
+                        Discover the Distinctive Range of Premium Trading CommoditiesUnmatched Quality, Endless
+                        Opportunities
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/1.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Timber
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/2.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Sea Food
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/3.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            RMG
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/4.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Metal Scrap
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/5.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Dry Food
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/6.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Bitumen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/7.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Crashed Stone
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/home/products/8.png') }}" alt="">
+                        <div class="product_inner_btn">
+                            Jute Bag
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="">TESTIMONIALS</h3>
+
+                </div>
+                <div class="col-md-12">
+                    <h2 class="brand_color fw-bold">
+                        Our Clients Reviews
+                    </h2>
+                </div>
+            </div>
+            <div class="row testimonials mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            “ I'm consistently impressed with this trading company's efficiency and reliability in executing
+                            trades. Their transparent transactions and insightful market analyses have made my trading
+                            experience seamless.“
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">Wilton Grooves</h5>
+                        <p class="brand_color">Trader</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            “ This trading company stands out for its precision in executing trades and transparent
+                            approach,
+                            making my investment journey smooth and stress-free. “
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">Arif Shahriar</h5>
+                        <p class="brand_color">Businessman</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonials-item">
+                        <p>
+                            "Consistent precision in trades, transparent dealings, and insightful market analyses define
+                            this
+                            trading company. The user-friendly platform and responsive support enhance the overall
+                            experience."
+                        </p>
+                    </div>
+                    <div style="padding: 7px">
+                        <h5 class="mb-0 fw-bold">George D. Coffey</h5>
+                        <p class="brand_color">Businessman</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
         </section>
     </div>
 @endsection
