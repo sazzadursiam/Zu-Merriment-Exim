@@ -8,6 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="{{ asset('frontend_assets/css/style.css') }}">
     @yield('custom_css')
 </head>
@@ -16,9 +21,9 @@
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            
+
             <a class="navbar-brand me-5" href="{{ route('home') }}">
-                <div class="py-2">
+                <div class="py-0">
                     <img src="{{ asset('frontend_assets/img/logo.png') }}" alt="" height="60px">
                 </div>
             </a>
@@ -26,35 +31,33 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 d-flex justify-content-between align-items-center">
                     <li class="nav-item">
                         <a class="nav-link @yield('home_active')" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
+                        <a class="nav-link @yield('about_us_active')" href="{{ route('about_us') }}">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link @yield('services_active')" href="{{ route('services') }}">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link @yield('products_active')" href="{{ route('products') }}">PRODUCTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUCTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NEWS & UPDATES</a>
+                        <a class="nav-link @yield('news_updates_active')" href="{{ route('news_updates') }}">NEWS & UPDATES</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link contact_menu" href="#">Contact us</a>
+                        <a class="nav-link contact_menu text-white @yield('contact_us_active')"
+                            href="{{ route('contact_us') }}">Contact us</a>
                     </li>
                 </ul>
 
             </div>
-            
+
 
 
         </div>
