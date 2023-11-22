@@ -69,11 +69,27 @@ a {
     padding: 10px 40px;
 }
 .img-gradient .inner_text {
-	position: absolute;
-	bottom: 15px;
-	color: #ffffff;
-	width: 85%;
-	left: 6%;
-	z-index: 1;
+    position: absolute;
+    bottom: 15px;
+    color: #ffffff;
+    width: 85%;
+    left: 6%;
+    z-index: 1;
     padding-right: 8px;
+}
+.product_wrapper{
+    position: relative;
+}
+.product_wrapper img{
+    width: 100%;
+}
+.product_wrapper .product_inner_btn {
+	position: absolute;
+    cursor: pointer;
+	background: #f25c05;
+	color: #ffffff;
+	padding: 5px 30px;
+	bottom: 15px;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
