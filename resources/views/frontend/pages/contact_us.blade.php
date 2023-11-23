@@ -9,13 +9,13 @@
 @endsection
 @section('content')
     <div class="hero_img">
-        <img src="{{ asset('frontend_assets/img/about_us/hero.webp') }}" class="d-block w-100" alt="...">
+        <img src="{{ asset('frontend_assets/img/contact_us/1.png') }}" class="d-block w-100" alt="...">
         <div class="hero_child_img text-end">
-            <img src="{{ asset('frontend_assets/img/about_us/1.webp') }}" class="" alt="">
+            <img src="{{ asset('frontend_assets/img/contact_us/2.png') }}" class="" alt="">
         </div>
 
         <div class="d-inline-block page_title">
-            <h5 class="text-white"><b>ABOUT US</b></h5>
+            <h5 class="text-white" style="text-shadow: 2px 2px 8px #f25c05;"><b>CONTACT US</b></h5>
             <hr style="height: 3px; background-color:#f25c05; opacity:unset; border-top: 0; margin: 0; width: 135%;">
         </div>
 
@@ -23,115 +23,110 @@
 
 
     <div class="container">
-        <section class="custom_section">
-            <div class="row">
-                <div class="col-md-6">
-                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>WHO WE ARE</b></h6>
-                    <p class="mt-3" style="text-align: justify">Welcome to Merriment Exim Ltd, where excellence meets
-                        expertise in the dynamic world of trading. Established with a passion for delivering unparalleled
-                        trading solutions, we take pride in our commitment to innovation, integrity, and client success.
-                    </p>
-                </div>
-                <p style="text-align: justify">Merriment Exim Ltd. is a team of seasoned professionals, each bringing a
-                    wealth of experience and a unique set of skills to the table. From market analysts and financial experts
-                    to technology specialists, we have assembled a diverse team dedicated to staying ahead of market trends
-                    and delivering top-notch services. What Sets Us Apart</p>
-            </div>
-        </section>
-        <section class="custom_section">
-            <div class="row">
-                <div class="col-md-6 mb-3 mb-md-0">
-                    <div class="card"
-                        style="border-left: 20px solid #f25c05; border-radius: 0; box-shadow: 0px 0px 5px 0px #888888; height:100%;">
-                        <div class="card-body">
-                            <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Mission</b>
-                            </h6>
-                            <p class="mt-3" style="text-align: justify">At Merriment Exim, our mission is to empower
-                                individuals and businesses to navigate the complexities of the global market with
-                                confidence. We strive to provide cutting-edge trading services that enable our clients to
-                                achieve their financial goals while ensuring
-                                transparency, trust, and reliability.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card"
-                        style="border-left: 20px solid #f25c05; border-radius: 0; box-shadow: 0px 0px 5px 0px #888888; height:100%;">
-                        <div class="card-body">
-                            <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Vision</b>
-                            </h6>
-                            <p class="mt-3" style="text-align: justify">We envision a future where financial empowerment
-                                knows no bounds. We aspire to be pioneers in the trading industry, setting new standards of
-                                excellence and innovation. Our commitment is to empower individuals and businesses globally,
-                                fostering informed, strategic, and sustainable financial decisions. By leveraging
-                                cutting-edge technology and fostering personal growth, we aim to create a positive impact
-                                that transcends traditional boundaries, enriching lives and communities worldwide through
-                                the exciting possibilities of trading.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="custom_section"></section>
 
         <section class="custom_section">
             <div class="row">
-                <div class="col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
-                    <img src="{{ asset('frontend_assets/img/about_us/2.webp') }}" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                    <h6 class="d-inline brand_color px-2 py-1 text-uppercase" style="border: 1px solid #f25c05"><b>What Sets
-                            Us Apart</b>
+
+                <div class="col-12 mt-0">
+                    <h6 class="d-inline brand_color text-uppercase px-2 py-1" style="border: 1px solid #f25c05"><b>WHERE YOU
+                            CAN FIND US</b>
                     </h6>
-
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Expertise:</b> Our team comprises industry veterans who bring years of
-                            experience in trading
-                            and financial markets. This expertise allows us to offer insights and strategies that set our
-                            clients on the path to success.</p>
-                    </div>
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Innovation:</b> In a rapidly evolving market, innovation is key. We leverage
-                            cutting-edge technology to provide our clients with the latest tools and resources, ensuring
-                            they stay ahead of the curve.</p>
-                    </div>
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Client-Centric Approach:</b> Your success is our success. We
-                            prioritize a client-centric approach, tailoring our services to meet the unique needs and goals
-                            of each individual or business we work with.</p>
-                    </div>
+                    <p class="mt-3 mb-0" style="text-align: justify">We'd love to hear from you! If you have any questions,
+                        suggestions, or would like to get involved, please don't hesitate to contact us. Our dedicated team
+                        is here to assist you. Feel free to reach out via email, give us a call or fill out the contact form
+                        below. Your feedback and interest in volunteering are greatly appreciated. Let's work together to
+                        make a positive impact in our community.</p>
                 </div>
-            </div>
-        </section>
 
-        <section class="custom_section">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Commitment to
-                            Excellence</b></h6>
-                    <p class="mt-3 mb-0">At Merriment Exim Ltd, excellence is not just a goal; it's a standard. We are
-                        dedicated to
-                        maintaining the highest standards of professionalism, transparency, and ethical conduct. Whether
-                        you're a seasoned trader or just starting, we are here to guide you on your financial journey.</p>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="custom_section">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center">
-                    <h4 class="d-inline brand_color px-2 py-1" style=""><b>Trusted by more than 20
-                            global companies have worked with us</b></h4>
-                    <div class="card mt-4" style="border-radius: 0; box-shadow: 0px 0px 5px 0px #888888;">
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <img src="{{ asset('frontend_assets/img/about_us/3.webp') }}" class="img-fluid" alt="">
+                <div class="col-md-12 mt-5">
+                    <div class="row brand_color">
+                        <div class="col-md-4 text-center  py-4">
+                            <i class="fa-solid fa-house"></i>
+                            <h6 class="fw-bold mt-2">
+                                Address
+                            </h6>
+                            <p class="text-dark">10A Lime street, Bedfort, MK40 1LD</p>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <i class="fa-solid fa-phone"></i>
+                            <h6 class="fw-bold mt-2">
+                                Phone
+                            </h6>
+                            <p class="text-dark">+44 1234 340081 <br>
+                                +44 7958 579924</p>
+                        </div>
+                        <div class="col-md-4 text-center  py-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h6 class="fw-bold mt-2">
+                                E-mail
+                            </h6>
+                            <p class="text-dark">info@merrimentexim.com</p>
                         </div>
                     </div>
+
                 </div>
             </div>
+        </section>
+
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-12  text-center">
+                    <img src="{{ asset('frontend_assets/img/contact_us/3.png') }}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        
+        <section class="custom_section">
+            <div class="row">
+                <div class="col-12 text-center mt-0">
+                    <h6 class="d-inline brand_color text-uppercase  px-2 py-1" style="border: 1px solid #f25c05">
+                        <b>SAY HELLO
+                            TO US</b>
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8 col-lg-6">
+                    <form action="" method="" class=""
+                        style="border-radius: 5px;  padding:30px 20px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);">
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-2">
+                                <input type="text" name="f_name" class="form-control" id=""
+                                    placeholder="First Name" style="border: 1px solid #03371F">
+                            </div>
+                            <div class="col-md-6 form-group mb-2">
+                                <input type="text" name="l_name" class="form-control" id=""
+                                    placeholder="Last Name" style="border: 1px solid #03371F">
+                            </div>
+                            <div class="col-md-6 form-group mb-2">
+                                <input type="email" class="form-control" name="email" id=""
+                                    placeholder="Your Email" style="border: 1px solid #03371F">
+                            </div>
+                            <div class="col-md-6 form-group mb-2">
+                                <input type="text" class="form-control" name="phone" id=""
+                                    placeholder="Your Phone" style="border: 1px solid #03371F">
+                            </div>
+                            <div class="form-group mb-2">
+                                <input type="text" name="address" class="form-control" id=""
+                                    placeholder="Address" style="border: 1px solid #03371F">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Briefly Write About Yourself"
+                                style="border: 1px solid #03371F"></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn text-white" style="background-color: #f25c05;"><i
+                                    class="fa-solid fa-paper-plane me-1"></i>Send
+                                Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </section>
     </div>
 @endsection
