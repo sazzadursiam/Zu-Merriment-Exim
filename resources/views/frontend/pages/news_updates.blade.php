@@ -9,13 +9,13 @@
 @endsection
 @section('content')
     <div class="hero_img">
-        <img src="{{ asset('frontend_assets/img/services/1.webp') }}" class="d-block w-100" alt="...">
+        <img src="{{ asset('frontend_assets/img/news_updates/1.svg') }}" class="d-block w-100" alt="...">
         <div class="hero_child_img text-end">
-            <img src="{{ asset('frontend_assets/img/services/2.webp') }}" class="" alt="">
+            <img src="{{ asset('frontend_assets/img/news_updates/2.svg') }}" class="" alt="">
         </div>
 
         <div class="d-inline-block page_title">
-            <h5 class="text-white"><b>SERVICES</b></h5>
+            <h5 class="text-white" style="text-shadow: 2px 2px 8px #f25c05;"><b>NEWS & UPDATES</b></h5>
             <hr style="height: 3px; background-color:#f25c05; opacity:unset; border-top: 0; margin: 0; width: 135%;">
         </div>
 
@@ -23,91 +23,61 @@
 
 
     <div class="container">
+
+        <section class="custom_section"></section>
+
         <section class="custom_section">
             <div class="row">
-                <div class="col-md-6">
-
-                    <p class="mt-3" style="text-align: justify">Welcome to the heart of global trade at Merriment Exim. As
-                        a leading trading company, we specialize in comprehensive export and import services designed to
-                        connect businesses to opportunities worldwide. Whether you're looking to expand your market reach,
-                        source quality products, or streamline your supply chain, we have the expertise and resources to
-                        make international trade seamless for you.
-                    </p>
-                </div>
-                <div class="col-12 mt-4">
-                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Export Services</b>
+                <div class="col-12">
+                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>NEWS & BLOGS</b>
                     </h6>
-                    <p class="mt-3" style="text-align: justify">At Merriment Exim, we understand that success in
-                        international markets requires precision and reliability. Our export services are tailored to meet
-                        the diverse needs of businesses seeking to venture into new territories. From navigating complex
-                        regulations to optimizing shipping logistics, we handle the intricacies, allowing you to focus on
-                        growing your business globally.</p>
                 </div>
             </div>
-        </section>
-        <section class="custom_section">
-            <div class="row">
-                <div class="col-md-6 mb-3 mb-md-0">
-                    <div class="card"
-                        style="border-left: 20px solid #f25c05; border-radius: 0; box-shadow: 0px 0px 5px 0px #888888; height:100%;">
-                        <div class="card-body">
-                            <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Mission</b>
-                            </h6>
-                            <p class="mt-3" style="text-align: justify">At Merriment Exim, our mission is to empower
-                                individuals and businesses to navigate the complexities of the global market with
-                                confidence. We strive to provide cutting-edge trading services that enable our clients to
-                                achieve their financial goals while ensuring
-                                transparency, trust, and reliability.</p>
-                        </div>
+            <div class="row mt-3">
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/3.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Global shipping giant Maersk to slash 10,000 jobs, citing difficult
+                                container trade environment</b>
+                        </h6>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card"
-                        style="border-left: 20px solid #f25c05; border-radius: 0; box-shadow: 0px 0px 5px 0px #888888; height:100%;">
-                        <div class="card-body">
-                            <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Vision</b>
-                            </h6>
-                            <p class="mt-3" style="text-align: justify">We envision a future where financial empowerment
-                                knows no bounds. We aspire to be pioneers in the trading industry, setting new standards of
-                                excellence and innovation. Our commitment is to empower individuals and businesses globally,
-                                fostering informed, strategic, and sustainable financial decisions. By leveraging
-                                cutting-edge technology and fostering personal growth, we aim to create a positive impact
-                                that transcends traditional boundaries, enriching lives and communities worldwide through
-                                the exciting possibilities of trading.</p>
-                        </div>
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/4.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Tata Power shares rise 0.04 per cent in Wednesday's trading session
+                            </b>
+                        </h6>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="custom_section">
-            <div class="row">
-                <div class="col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
-                    <img src="{{ asset('frontend_assets/img/about_us/2.webp') }}" alt="" class="img-fluid">
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/5.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Timber investor Manulife raises more than $200 million to buy
+                                forests for carbon</b>
+                        </h6>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h6 class="d-inline brand_color px-2 py-1 text-uppercase" style="border: 1px solid #f25c05"><b>What Sets
-                            Us Apart</b>
-                    </h6>
-
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Expertise:</b> Our team comprises industry veterans who bring years of
-                            experience in trading
-                            and financial markets. This expertise allows us to offer insights and strategies that set our
-                            clients on the path to success.</p>
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/6.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Wood prices fall into crisis mode in Germany</b>
+                        </h6>
                     </div>
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Innovation:</b> In a rapidly evolving market, innovation is key. We leverage
-                            cutting-edge technology to provide our clients with the latest tools and resources, ensuring
-                            they stay ahead of the curve.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/7.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Bitumen Market Poised For Explosive Growth, With A Projected US$ 7.3
+                                Bn By 2032 At A Steady 3.8% CAGR</b>
+                        </h6>
                     </div>
-                    <div class="mt-3 d-flex align-items-center">
-                        <i class="fa-solid fa-circle-check me-2" style="color: #f25c05"></i>
-                        <p class="mb-0"><b>Client-Centric Approach:</b> Your success is our success. We
-                            prioritize a client-centric approach, tailoring our services to meet the unique needs and goals
-                            of each individual or business we work with.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="product_wrapper">
+                        <img src="{{ asset('frontend_assets/img/news_updates/8.svg') }}" alt="">
+                        <h6 class="brand_color py-2"><b>Barney’s Beanery Presents Line of Premium Frozen Burgers</b>
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -115,30 +85,80 @@
 
         <section class="custom_section">
             <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>Our Commitment to
-                            Excellence</b></h6>
-                    <p class="mt-3 mb-0">At Merriment Exim Ltd, excellence is not just a goal; it's a standard. We are
-                        dedicated to
-                        maintaining the highest standards of professionalism, transparency, and ethical conduct. Whether
-                        you're a seasoned trader or just starting, we are here to guide you on your financial journey.</p>
-
+                <div class="col-md-12">
+                    <h6 class="d-inline brand_color px-2 py-1" style="border: 1px solid #f25c05"><b>LATEST UPDATES</b></h6>
                 </div>
             </div>
-        </section>
-
-        <section class="custom_section">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center">
-                    <h4 class="d-inline brand_color px-2 py-1" style=""><b>Trusted by more than 20
-                            global companies have worked with us</b></h4>
-                    <div class="card mt-4" style="border-radius: 0; box-shadow: 0px 0px 5px 0px #888888;">
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <img src="{{ asset('frontend_assets/img/about_us/3.webp') }}" class="img-fluid" alt="">
+            <div class="row mt-3">
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/10.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/10.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/10.svg') }}"
+                                class="img-fluid" alt=""></div>
+                        <div class="col-9 d-flex align-items-center latest_update_text" style="background-color:#f25c05;">
+                            <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
     </div>
 @endsection

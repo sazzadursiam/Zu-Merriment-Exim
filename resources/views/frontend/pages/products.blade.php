@@ -15,10 +15,9 @@
         </div>
 
         <div class="d-inline-block page_title">
-            <h5 class="text-white"><b>PRODUCTS</b></h5>
+            <h5 class="text-white" style="text-shadow: 2px 2px 8px #f25c05;"><b>PRODUCTS</b></h5>
             <hr style="height: 3px; background-color:#f25c05; opacity:unset; border-top: 0; margin: 0; width: 135%;">
         </div>
-
     </div>
 
 
@@ -26,7 +25,6 @@
         <section class="custom_section">
             <div class="row">
                 <div class="col-md-6">
-
                     <p class="mt-3" style="text-align: justify">We take pride in offering a diverse range of high-quality
                         products to meet the ever-evolving needs of our valued clients. With a focus on excellence and
                         reliability, we specialize in the trading of premium goods such as timber, bitumen, crushed stone,
@@ -61,7 +59,6 @@
                 </div>
             </div>
 
-
             <div class="row mt-5">
                 <div class="col-md-6 py-4 text-start order-1 order-md-0">
                     <p>Our extensive selection of hardwood and softwood is sourced from sustainable forests, ensuring
@@ -83,8 +80,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div class="row">
                 <div class="col-md-6 py-4">
@@ -109,7 +104,6 @@
                 </div>
             </div>
 
-
             <div class="row mt-5">
                 <div class="col-md-6 py-4 text-start order-1 order-md-0">
                     <p>Our selection of crushed stone stands as a testament to our commitment to quality and durability.
@@ -130,8 +124,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div class="row">
                 <div class="col-md-6 py-4">
@@ -162,7 +154,6 @@
                 </div>
             </div>
 
-
             <div class="row mt-5">
                 <div class="col-md-6 py-4 text-start order-1 order-md-0">
                     <p>We are your premier destination for high-quality jute bags, combining sustainability with versatile
@@ -186,8 +177,6 @@
                 </div>
             </div>
 
-
-
             <div class="row">
                 <div class="col-md-6 py-4">
                     <div class="img-gradient">
@@ -195,9 +184,7 @@
                         <div class="inner_btn">
                             SEA FOOD
                         </div>
-
                     </div>
-
                 </div>
                 <div class="col-md-6 py-4 text-start">
                     <p>At Merriment Exim Ltd, where we bring the finest and freshest sea foods to your table. As a leading
@@ -214,7 +201,6 @@
                         and nutritional benefits of our premium sea foods.</p>
                 </div>
             </div>
-
 
             <div class="row mt-5">
                 <div class="col-md-6 py-4 text-start order-1 order-md-0">
@@ -241,10 +227,6 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
-
-
     </div>
 @endsection
