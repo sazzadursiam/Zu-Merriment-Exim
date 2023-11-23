@@ -51,7 +51,7 @@
                 <div class="col-md-12">
                     <div class="row justify-content-center">
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/3.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/3.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Market Analysis
                             </h6>
@@ -59,7 +59,7 @@
                                 demand for your products in different regions.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/4.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/4.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Regulatory Compliance
                             </h6>
@@ -67,7 +67,7 @@
                                 ensuring smooth and compliant cross-border transactions.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/6.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/6.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Logistics Management
                             </h6>
@@ -75,7 +75,7 @@
                                 to transportation and delivery.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/5.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/5.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Risk Mitigation
                             </h6>
@@ -112,7 +112,7 @@
                 <div class="col-md-12">
                     <div class="row justify-content-center">
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/7.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/7.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Supplier Identification
                             </h6>
@@ -120,7 +120,7 @@
                                 specifications and quality standards.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/8.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/8.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Customs Clearance
                             </h6>
@@ -128,7 +128,7 @@
                                 and timely flow of goods into your supply chain.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/9.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/9.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Quality Assurance
                             </h6>
@@ -136,7 +136,7 @@
                                 exceed your expectations.</p>
                         </div>
                         <div class="col-md-5 text-center  py-4">
-                            <img src="{{ asset('frontend_assets/img/services/10.svg') }}" alt="">
+                            <img src="{{ asset('frontend_assets/img/services/10.png') }}" alt="">
                             <h6 class="fw-bold mt-4">
                                 Cost Optimization
                             </h6>

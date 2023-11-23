@@ -9,9 +9,9 @@
 @endsection
 @section('content')
     <div class="hero_img">
-        <img src="{{ asset('frontend_assets/img/products/1.svg') }}" class="d-block w-100" alt="...">
+        <img src="{{ asset('frontend_assets/img/products/1.png') }}" class="d-block w-100" alt="...">
         <div class="hero_child_img text-end">
-            <img src="{{ asset('frontend_assets/img/products/2.svg') }}" class="" alt="">
+            <img src="{{ asset('frontend_assets/img/products/2.png') }}" class="" alt="">
         </div>
 
         <div class="d-inline-block page_title">
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-md-6 py-4">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/3.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/3.png') }}" alt="">
                         <div class="inner_btn">
                             TIMBER
                         </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-6 py-4 text-md-end order-0 order-md-1">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/4.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/4.png') }}" alt="">
                         <div class="inner_btn">
                             METAL SCRAP
                         </div>
@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-md-6 py-4">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/5.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/5.png') }}" alt="">
                         <div class="inner_btn">
                             BITUMEN
                         </div>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-md-6 py-4 text-md-end order-0 order-md-1">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/4.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/6.png') }}" alt="">
                         <div class="inner_btn">
                             CRUSHED STONE
                         </div>
@@ -128,7 +128,7 @@
             <div class="row">
                 <div class="col-md-6 py-4">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/6.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/7.png') }}" alt="">
                         <div class="inner_btn">
                             RMG
                         </div>
@@ -169,7 +169,7 @@
                 </div>
                 <div class="col-md-6 py-4 text-md-end order-0 order-md-1">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/7.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/8.png') }}" alt="">
                         <div class="inner_btn">
                             JUTE BAG
                         </div>
@@ -180,7 +180,7 @@
             <div class="row">
                 <div class="col-md-6 py-4">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/8.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/9.png') }}" alt="">
                         <div class="inner_btn">
                             SEA FOOD
                         </div>
@@ -220,7 +220,7 @@
                 </div>
                 <div class="col-md-6 py-4 text-md-end order-0 order-md-1">
                     <div class="img-gradient">
-                        <img src="{{ asset('frontend_assets/img/products/9.svg') }}" alt="">
+                        <img src="{{ asset('frontend_assets/img/products/10.png') }}" alt="">
                         <div class="inner_btn">
                             DRY FOOD
                         </div>
