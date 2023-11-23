@@ -126,7 +126,7 @@ a {
     left: 8%;
     top: 10%;
 }
-.testimonials-item{
+.testimonials-item {
     border: 1px solid #f25c05;
     padding: 7px;
     min-height: 152px;
@@ -189,5 +189,16 @@ a {
 
     .hero_img .hero_child_img img {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .latest_update_text p {
+        font-size: 13px;
+    }
+}
+@media (min-width: 370px) and (max-width: 575px) {
+    .latest_update_text p {
+        font-size: 14px;
     }
 }
