@@ -240,7 +240,7 @@
                 </div>
             </div>
             <div class="row testimonials mt-5">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             “ I'm consistently impressed with this trading company's efficiency and reliability in executing
@@ -255,7 +255,7 @@
 
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             “ This trading company stands out for its precision in executing trades and transparent
@@ -270,7 +270,7 @@
 
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             "Consistent precision in trades, transparent dealings, and insightful market analyses define

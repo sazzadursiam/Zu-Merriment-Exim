@@ -132,6 +132,21 @@ a {
     min-height: 152px;
 }
 
+.footer{
+    background: #f25c05;
+    color: #fff;
+}
+.footer ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer ul li{
+    margin-bottom: 15px;
+}
+.footer ul li a{
+    color: #fff;
+}
+
 @media screen and (max-width: 575px) {
     .hero_img .hero_child_img {
         position: absolute;
