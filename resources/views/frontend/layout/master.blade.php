@@ -52,7 +52,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link contact_menu text-white @yield('contact_us_active')"
-                            href="{{ route('contact_us') }}">Contact us</a>
+                            href="{{ route('contact_us') }}" style="color: #fff !important">Contact us</a>
                     </li>
                 </ul>
 
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <div class="row text-center mt-5">
-                    <p>Copyright &copy; 2022 Merriment Exim Ltd, All rights reserved.</p>
+                    <p>Copyright &copy; 2023 Merriment Exim Ltd, All rights reserved.</p>
                 </div>
             </div>
         </footer>
