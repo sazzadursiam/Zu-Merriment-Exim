@@ -1,0 +1,11 @@
+table.dataTable {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px 7px;
+}
