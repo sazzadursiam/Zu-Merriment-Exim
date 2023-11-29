@@ -22,6 +22,7 @@ Route::get('/services', [MasterController::class, 'services'])->name('services')
 Route::get('/products', [MasterController::class, 'products'])->name('products');
 Route::get('/news-and-updates', [MasterController::class, 'news_updates'])->name('news_updates');
 Route::get('/contact-us', [MasterController::class, 'contact_us'])->name('contact_us');
+Route::post('/message-post', [MasterController::class, 'msg_post'])->name('msg_post');
 
 
 Route::group(['prefix' => '/admin'], function () {
@@ -40,6 +41,8 @@ Route::group(['prefix' => '/admin'], function () {
                 });
                 Route::get('/logout', [AdminAuthController::class, 'logout'])->name('logout');
                 Route::get('/', [AdminMasterController::class, 'index'])->name('dashboard');
+                Route::get('/contact-messages', [AdminMasterController::class, 'contact_messages'])->name('contact_messages');
+                Route::delete('/contact-messages-delete/{id}', [AdminMasterController::class, 'contact_messages_delete'])->name('contact_messages_delete');
             });
         });
     });

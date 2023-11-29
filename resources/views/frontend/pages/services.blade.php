@@ -15,7 +15,7 @@
         </div>
 
         <div class="d-inline-block page_title">
-            <h5 class="text-white"><b>SERVICES</b></h5>
+            <h5 class="text-white" style="text-shadow: 2px 2px 8px #f25c05;"><b>SERVICES</b></h5>
             <hr style="height: 3px; background-color:#f25c05; opacity:unset; border-top: 0; margin: 0; width: 135%;">
         </div>
     </div>

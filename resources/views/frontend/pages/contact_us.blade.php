@@ -5,7 +5,9 @@
 @section('custom_css')
     <style>
 
+
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 @endsection
 @section('content')
     <div class="hero_img">
@@ -72,11 +74,17 @@
         <section class="custom_section">
             <div class="row">
                 <div class="col-12  text-center">
-                    <img src="{{ asset('frontend_assets/img/contact_us/3.png') }}" alt="" class="img-fluid">
+                    <iframe
+                        src="https://www.google.com/maps/embed/v1/place?q=Lime+Street,+Bedford+MK40+1LD,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        width="100%" height="500"
+                        style="border: 2px solid #f25c05;
+                        border-radius: 10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {{-- <img src="{{ asset('frontend_assets/img/contact_us/3.png') }}" alt="" class="img-fluid"> --}}
                 </div>
             </div>
         </section>
-        
+
         <section class="custom_section">
             <div class="row">
                 <div class="col-12 text-center mt-0">
@@ -89,8 +97,9 @@
 
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 col-lg-6">
-                    <form action="" method="" class=""
+                    <form action="{{ route('msg_post') }}" method="POST" class=""
                         style="border-radius: 5px;  padding:30px 20px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6 form-group mb-2">
                                 <input type="text" name="f_name" class="form-control" id=""
@@ -129,4 +138,17 @@
 
         </section>
     </div>
+@endsection
+
+@section('custom_js')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    @if (Session::has('message'))
+        <script>
+            var message = {!! json_encode(Session::get('message')) !!};
+            toastr.success(message, {
+                timeOut: 5000
+            });
+        </script>
+    @endif
 @endsection
