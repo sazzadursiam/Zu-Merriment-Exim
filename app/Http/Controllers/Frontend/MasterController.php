@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\ContactMessages;
 use Illuminate\Http\Request;
 
 class MasterController extends Controller
@@ -30,5 +31,18 @@ class MasterController extends Controller
     public function contact_us()
     {
         return view('frontend.pages.contact_us');
+    }
+
+    public function msg_post(Request $request)
+    {
+        $model = new ContactMessages();
+        $model->f_name = $request->f_name;
+        $model->l_name = $request->l_name;
+        $model->email = $request->email;
+        $model->phone = $request->phone;
+        $model->address = $request->address;
+        $model->message = $request->message;
+        $model->save();
+        return back()->with('message', 'Message has been sent...!');
     }
 }

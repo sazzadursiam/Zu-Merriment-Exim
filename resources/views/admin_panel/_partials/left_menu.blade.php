@@ -2,8 +2,11 @@
     <a href="{{ route('admin.dashboard') }}" class="dashboard-nav-item @yield('dashboard_menu_active')">
         <i class="fa-solid fa-table-cells-large"></i> Dashboard
     </a>
+    <a href="{{ route('admin.contact_messages') }}" class="dashboard-nav-item @yield('contacts_menu_active')">
+        <i class="fa-regular fa-envelope"></i> Contacts
+    </a>
 
-    <h4 class="text-info dashboard-nav-item" style="font-size: 12px; margin-left: -40px;">Options</h4>
+    {{-- <h4 class="text-info dashboard-nav-item" style="font-size: 12px; margin-left: -40px;">Options</h4>
 
     <div class="dashboard-nav-dropdown @yield('student_menu_show')">
         <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
@@ -15,7 +18,7 @@
             </a>
 
         </div>
-    </div>
+    </div> --}}
 
 
     <div class="nav-item-divider"></div>
