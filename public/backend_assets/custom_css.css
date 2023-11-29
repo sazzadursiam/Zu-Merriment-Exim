@@ -1,0 +1,302 @@
+input:focus,
+textarea:focus,
+button:focus,
+a:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border: 1px solid #000;
+}
+
+.input-group > .form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 65%;
+    min-width: 0;
+}
+
+/* .input-group button {
+    height: 35px;
+} */
+
+label {
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container .select2-selection--multiple {
+    height: 37px;
+    /* background-color: #e9ecef; */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.custom_nav_tabs .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+}
+
+.custom_nav_tabs .nav-tabs .nav-item.show .nav-link,
+.custom_nav_tabs .nav-tabs .nav-link.active,
+.custom_nav_tabs .nav-item:hover {
+    color: #ffffff;
+    background-color: #033b57;
+    border: none;
+}
+
+.card-body {
+    /* background: #fafafa; */
+}
+.single_student_add_row {
+    /* background-color: #e9eff9 !important; */
+    background-color: #b0c8d7ba !important;
+}
+.single_routine_add_row {
+    background-color: #b0c8d7ba !important;
+    padding: 5px;
+}
+
+.add-more-bg {
+    background-color: #b0c8d7ba !important;
+    padding: 5px;
+}
+/* .form-control,
+.form-select {
+    background-color: #e9ecef;
+} */
+
+.custom_nav_tabs .active {
+    background: transparent;
+}
+
+.custom_nav_tabs .nav-tabs .nav-link {
+    margin-bottom: 0;
+    background: 0 0;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* img drag and drop box css start  */
+.uploadOuter {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.uploadOuter strong {
+    padding: 0 10px;
+}
+
+.dragBox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    line-height: 95px;
+    color: #999;
+    border: 2px dashed #ccc;
+    display: inline-block;
+    transition: transform 0.3s;
+    background-color: #e9ecef;
+}
+
+.dragBox input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.draging {
+    transform: scale(1.1);
+}
+
+#preview {
+    text-align: center;
+}
+
+#preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/* img drag and drop box css end  */
+
+textarea.form-control {
+    height: unset;
+}
+.form-control[type="file"] {
+    font-size: 16px;
+}
+
+.custom_btn {
+    background-color: #3f6791;
+    color: white;
+}
+.custom_btn:hover {
+    color: white;
+}
+
+.info_page .card-primary.card-outline {
+    border-top: 3px solid #184e77;
+}
+.info_page .card {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+.info_page .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.info_page .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.info_page .card-header {
+    margin-bottom: 0;
+}
+.info_page .img-circle {
+    border-radius: 50%;
+}
+.info_page .profile-user-img {
+    border: 3px solid #adb5bd;
+    margin: 0 auto;
+    padding: 3px;
+    width: 100px;
+}
+.info_page .profile-username {
+    font-size: 21px;
+    margin-top: 5px;
+}
+.info_page .list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+.info_page .list-group-unbordered > .list-group-item {
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.info_page .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.float-right {
+    float: right !important;
+}
+a {
+    /* color: #007bff; */
+    text-decoration: none;
+    /* background-color: transparent; */
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding-top: 0.755em;
+}
+.box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    /* background: #16466b; */
+    background: #1e6194;
+    border-radius: 50%;
+}
+.box-icon i {
+    color: #fff;
+    font-size: 22px;
+}
+.box {
+    height: 100px;
+    padding: 8px 15px;
+    background: #16466b;
+    /* background: #184e77; */
+}
+.box-info {
+    color: #fff;
+}
+.box-info .number {
+    color: yellow;
+}
+
+.prescription_create_page table thead,
+.template_create_form table thead {
+    background-color: #184e77d1;
+}
+
+.template_create_form tbody {
+    border-color: inherit;
+    border-style: none !important;
+    border-width: 0;
+}
+
+.prescription_create_page table th,
+.prescription_create_page table tr,
+.prescription_create_page table td {
+    border: none;
+}
+
+.box-profile a {
+    color: #184e77;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.inner_dropdown.show {
+    background: #1d4462 !important;
+}
+
+input[type="text"],
+textarea,
+select,
+label {
+    text-transform: capitalize;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.dashboard-nav .dashboard-nav-list .active {
+    background: rgb(21 50 82 / 75%) !important;
+}
