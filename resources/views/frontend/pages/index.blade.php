@@ -240,7 +240,7 @@
                 </div>
             </div>
             <div class="row testimonials mt-5">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             “ I'm consistently impressed with this trading company's efficiency and reliability in executing
@@ -255,7 +255,7 @@
 
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             “ This trading company stands out for its precision in executing trades and transparent
@@ -270,7 +270,7 @@
 
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" style="min-height:max-content">
                     <div class="testimonials-item">
                         <p>
                             "Consistent precision in trades, transparent dealings, and insightful market analyses define
@@ -286,6 +286,88 @@
 
                 </div>
 
+
+            </div>
+
+        </section>
+
+        <section class="custom_section">
+            <div class="row mt-3">
+                <div class="col-lg-6">
+
+                    <div class="" style="box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);">
+                        <img src="{{ asset('frontend_assets/img/home/blog/1.png') }}" alt="" class="w-100">
+                        <div class="p-4">
+                            <h4 class="brand_color fw-bold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </h4>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                                aut
+                                odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt.
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit,
+                                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                                qui
+                                in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+                                fugiat
+                                quo voluptas nulla pariatur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="row mb-2 mb-lg-5">
+                        <div class="col-md-12">
+                            <h4 class="">FROM OUR BLOG</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <h2 class="brand_color fw-bold">
+                                Your Trusted Partner for Transparent Trades and Insightful Analysis
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row mb-4">
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
+                                        class="img-fluid" alt=""></div>
+                                <div class="col-9 d-flex align-items-center latest_update_text"
+                                    style="background-color:#f25c05;">
+                                    <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do
+                                        eiusmod tempor incididunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
+                                        class="img-fluid" alt=""></div>
+                                <div class="col-9 d-flex align-items-center latest_update_text"
+                                    style="background-color:#f25c05;">
+                                    <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do
+                                        eiusmod tempor incididunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
+                                        class="img-fluid" alt=""></div>
+                                <div class="col-9 d-flex align-items-center latest_update_text"
+                                    style="background-color:#f25c05;">
+                                    <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do
+                                        eiusmod tempor incididunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 

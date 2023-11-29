@@ -52,7 +52,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link contact_menu text-white @yield('contact_us_active')"
-                            href="{{ route('contact_us') }}">Contact us</a>
+                            href="{{ route('contact_us') }}" style="color: #fff !important">Contact us</a>
                     </li>
                 </ul>
 
@@ -67,9 +67,48 @@
 
     <!-- <footer class="bg-dark text-white text-center py-3 fixed-bottom"> -->
     <section class="custom_section">
-        <footer class="bg-dark text-white text-center py-3">
+        <footer class="py-5 footer">
             <div class="container">
-                &copy; 2023 Your Company. All rights reserved.
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="logo mb-5">
+                            <img src="{{ asset('frontend_assets/img/logo-footer.png') }}" alt="">
+                        </div>
+                        <p><i class="fa-solid fa-location-dot me-2"></i><strong>Address:</strong> 10A Lime street,
+                            Bedfort, MK40 1LD</p>
+                        <p><i class="fa-solid fa-envelope me-2"></i><strong>Email:</strong> info@merrimentexim.com</p>
+                        <p><i class="fa-solid fa-phone-volume me-2"></i><strong>Contact:</strong> +44 1234 340081, +44
+                            7958 579924</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ms-xl-4">
+                            <h5 class="mb-4">Quick Links</h5>
+                            <ul>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="mb-4">Follow Us</h5>
+                        <div class="social-link d-flex">
+                            <div class="me-3">
+                                <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                            </div>
+                            <div class="me-3">
+                                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                            </div>
+                            <div class="me-3">
+                                <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center mt-5">
+                    <p>Copyright &copy; 2023 Merriment Exim Ltd, All rights reserved.</p>
+                </div>
             </div>
         </footer>
     </section>
