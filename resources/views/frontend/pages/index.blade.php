@@ -336,7 +336,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="row mb-4">
-                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
                                         class="img-fluid" alt=""></div>
                                 <div class="col-9 d-flex align-items-center latest_update_text"
                                     style="background-color:#f25c05;">
@@ -346,7 +346,7 @@
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
                                         class="img-fluid" alt=""></div>
                                 <div class="col-9 d-flex align-items-center latest_update_text"
                                     style="background-color:#f25c05;">
@@ -356,7 +356,7 @@
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.svg') }}"
+                                <div class="col-3 pe-0"><img src="{{ asset('frontend_assets/img/news_updates/9.png') }}"
                                         class="img-fluid" alt=""></div>
                                 <div class="col-9 d-flex align-items-center latest_update_text"
                                     style="background-color:#f25c05;">
