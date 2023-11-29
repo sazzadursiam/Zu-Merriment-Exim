@@ -13,6 +13,8 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+
     <link rel="stylesheet" href="{{ asset('frontend_assets/css/style.css') }}">
     @yield('custom_css')
 </head>
@@ -51,8 +53,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link contact_menu text-white @yield('contact_us_active')"
-                            href="{{ route('contact_us') }}" style="color: #fff !important">Contact us</a>
+                        <a class="nav-link contact_menu text-white @yield('contact_us_active')" href="{{ route('contact_us') }}"
+                            style="color: #fff !important">Contact us</a>
                     </li>
                 </ul>
 
@@ -84,25 +86,34 @@
                         <div class="ms-xl-4">
                             <h5 class="mb-4">Quick Links</h5>
                             <ul>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Products</a></li>
-                                <li><a href="">Blog</a></li>
+                                <li><a href="{{ route('about_us') }}">About us</a></li>
+                                <li><a href="{{ route('services') }}">Services</a></li>
+                                <li><a href="{{ route('products') }}">Products</a></li>
+                                <li><a href="{{ route('news_updates') }}">News & Updates</a></li>
+                                <li><a href="{{ route('contact_us') }}">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <h5 class="mb-4">Follow Us</h5>
                         <div class="social-link d-flex">
-                            <div class="me-3">
-                                <i class="fa-brands fa-square-facebook fa-2xl"></i>
-                            </div>
-                            <div class="me-3">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </div>
-                            <div class="me-3">
-                                <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
-                            </div>
+                            <a href="https://www.facebook.com/" target="_blank"
+                                style="text-decoration: none; color:unset;">
+                                <div class="me-3">
+                                    <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                                </div>
+                            </a>
+                            <a href="https://bd.linkedin.com/" target="_blank"
+                                style="text-decoration: none; color:unset;">
+                                <div class="me-3">
+                                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" style="text-decoration: none; color:unset;">
+                                <div class="me-3">
+                                    <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +126,10 @@
 
 
     <!-- Bootstrap JS (Be sure to include the Popper.js dependency as well) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
     @yield('custom_js')
 </body>
 

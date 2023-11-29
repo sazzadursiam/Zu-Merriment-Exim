@@ -12,7 +12,7 @@
 
     {{-- @include('admin_panel._partials.dashboard.box') --}}
 
-    <div class="row text-white statistic" style="">
+    {{-- <div class="row text-white statistic" style="">
         <div class="col-12">
             <div class="p-3" style="background-color: #184e77">
                 <div class="row">
@@ -98,7 +98,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 @endsection
 

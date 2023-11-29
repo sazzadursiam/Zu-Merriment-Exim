@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\ContactMessages;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
@@ -35,5 +36,20 @@ class MasterController extends Controller
     {
         $user_info = User::where('id', Auth::id())->first();
         return view('admin_panel.pages.profile.password_change', compact(['user_info']));
+    }
+    public function contact_messages()
+    {
+        $all_messages = ContactMessages::latest()->get();
+        return view('admin_panel.pages.contact_messages', compact(['all_messages']));
+    }
+
+    public function contact_messages_delete($id)
+    {
+        $model = ContactMessages::find($id);
+        if ($model) {
+            $model->delete();
+            return back()->with('message', 'Deleted.');
+        }
+        abort(404);
     }
 }

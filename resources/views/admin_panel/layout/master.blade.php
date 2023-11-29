@@ -31,7 +31,7 @@
 
     </style>
 
-    <title>Dashboard | @yield('page_title')</title>
+    <title>Merriment | @yield('page_title')</title>
     @yield('custom_style')
 </head>
 
